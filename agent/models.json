@@ -1,10 +1,16 @@
 {
-  "providers": {
-    "ollama": {
-      "baseUrl": "http://localhost:11434/v1",
-      "api": "openai-completions",
-      "apiKey": "ollama",
-      "models": [{ "id": "qwen38-160k", "contextWindow": 160000, "maxTokens": 8192 }]
+    "providers": {
+	"ollama": {
+	    "baseUrl": "http://localhost:11434/v1",
+	    "api": "openai-completions",
+	    "apiKey": "ollama",
+	    "models": [
+		{
+		    "id": "qwen3.8-128k",
+		    "contextWindow": 131072,
+		    "maxTokens": 8192
+		}
+	    ]
+	}
     }
-  }
 }
