@@ -6,8 +6,8 @@
 	    "apiKey": "ollama",
 	    "models": [
 		{
-		    "id": "qwen3.8-128k",
-		    "contextWindow": 131072,
+		    "id": "qwen3.8-64k",
+		    "contextWindow": 65536,
 		    "maxTokens": 8192
 		}
 	    ]

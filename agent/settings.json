@@ -1,5 +1,6 @@
 {
     "defaultProvider": "ollama",
-    "defaultModel": "qwen3.8-128k",
-    "lastChangelogVersion": "1.0.4"
+    "defaultModel": "qwen3.8-64k",
+    "lastChangelogVersion": "1.0.4",
+    "tuiMode": "regular"
 }
