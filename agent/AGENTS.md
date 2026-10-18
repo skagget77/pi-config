@@ -11,6 +11,8 @@
   as a sibling of `main`** (e.g. `pi-box/<short-branch-slug>`), not outside the repo
   (not `pi-box-<slug>` under `projects/`).
 - Branch name: short imperative slug, e.g. `bump-pi-to-1.3.0`, `ssh-agent-hook`.
+- These bare repos have **no fetch refspec by default**: set
+  `git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'` once per repo before fetching.
 
 ## pi-box project (`/home/pi/projects/pi-box`)
 - `main` keeps the current published state; changes land in sibling worktrees first.
